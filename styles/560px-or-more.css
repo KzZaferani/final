@@ -1,0 +1,32 @@
+@media screen and (max-width:560px) {
+    nav ul {
+        width: 360px;
+        padding: 0px;
+        font-size: 0.7em;
+        gap:0.5em;
+        
+    }
+    #main-content{
+        flex-direction: column;
+        
+    }
+    header{
+        background-size:560px;
+    }
+   header h1{
+       font-size: 1.5em;
+    }
+    body main{
+        padding: 0em;
+        
+    }
+
+    body aside{
+        width: 100%;
+    }
+    aside{
+        
+        width: 100px;
+    }
+    
+}

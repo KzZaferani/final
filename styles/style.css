@@ -1,0 +1,180 @@
+@import url(./reset.css);
+
+
+/* NAVIGATION */
+nav{
+    background-color: #34495e;
+}
+
+nav ul{
+    display: flex;
+    gap: 3em;
+    justify-content: center;
+}
+
+nav a{
+    display: flex;
+    height: 50px;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    padding: 1.5em;
+    transition: 0.5s;
+    font-size: 1.3em;
+}
+
+nav a:hover{
+    background-color:aliceblue;
+    color: #34495e;
+}
+
+
+
+
+
+
+
+/* HEADER */
+
+header{
+    background-image: url(../images/hong-feng-GcgntG01Ibg-unsplash.jpg);
+    background-size: cover;
+    height: 315px;
+    background-position: center;    
+} 
+
+header h1{
+    display: flex;
+    flex-wrap: nowrap;
+    color: azure;
+    font-size: 3em;
+    justify-content: center;
+    align-items: center;
+    text-shadow: 2px 2px #555252;
+    padding-top: 2.5em;;
+}
+ 
+header h2{
+    display: flex;
+    flex-wrap: nowrap;
+    color: azure;
+    font-size: 1.5em;
+    text-shadow: 2px 2px #555252;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+
+
+
+/* MAIN CONTENT */
+
+#main-content{
+    width: 85%;
+}
+
+
+
+
+
+
+/* MAIN */
+body div main{
+    display: flex;
+    flex-wrap: wrap;
+    width: 65%;
+    float: left;
+}
+
+
+figure img{
+    width: 250px;
+}
+
+figure{
+    float: left;
+    margin-right: 2em;
+    margin-bottom: 2em;
+}
+
+body cite {
+    display:block;
+}
+
+
+
+
+
+
+/* ASIDE */
+
+aside{
+    width: 35%;   
+    display: flex;
+    flex-wrap: wrap;
+    
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    
+   
+}
+
+aside h2{
+    padding: 0.5em;
+    font-size: 1.3em;
+    width: 100%;
+    text-align: center;  
+    margin-bottom: 1.2em; 
+    background-color: #bdc3c7;
+    padding: 20px;
+}
+
+aside ul{
+    text-align: center;
+    font-size: 1.1em;
+}
+
+aside li{
+    padding: 1em;
+}
+
+
+aside ul li:nth-child(even){
+    background-color: #bdc3c7;
+}
+
+
+
+/* FOOTER */
+
+footer{
+    background-color:#33485E;
+    color:#ecf0f1;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+footer ul a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    
+}
+
+footer p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 2em;
+}
+
